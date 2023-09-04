@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body,html{
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        .container {
+            position: relative;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            right: auto;
+            width: 100dvw;
+            height: 200dvh;
+            background-image: url('/Project1/img/pic.jpg');
+            /* Adjust the path to your background image */
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            z-index: 1;
+            /* Place the image at the bottom layer */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100dvw;
+            height: 200dvh;
+            background-color: rgba(0, 0, 0, 0.67);
+            /* Middle layer background color */
+            z-index: 2;
+            /* Place the overlay color in the middle */
+        }
+
+        .content {
+            margin-left: 5%;
+            width: 90dvw;
+            
+            position: relative;
+            z-index: 3;
+            /* Place your content on top of the background and overlay layers */
+            color: white;
+            text-align: center;
+            /* Add padding for readability */
+        }
+        p {
+            font-size: 28px;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Great Vibes', cursive;
+            font-family: 'Playball', cursive;
+            text-align-last: left;
+        }
+        h1,h2{
+            color: rgb(244, 92, 118);
+            font-size: 72px;
+            font-weight: bold;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Great Vibes', cursive;
+        }
+
+        #khushi {
+            display: block;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background-image"></div>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>About my crush&#10083</h1>
+            <p id="crush">I don't know when it started, I started catching myself gazing at you more and more. At first,
+                I just thought it's only because she is good in studies, then I deceived myself into believing that
+                yeah, she is nothing special, she doesn't talk to anyone, she is just khadus and self-centered. I
+                thought, "Stop looking at her, and you know falling in love is painful, it's not worth it." But still,
+                nothing changed. I still found myself doing my best to catch a glimpse. I unknowingly started mentioning
+                you more and more, to the point that once Aakash commented, "Why are you mentioning her? You got a crush
+                on her or something?" But I just said no but realized that I am really developing a crush on you. But
+                again, I deceived myself, thinking that it's nothing serious and it will be over soon. But nothing
+                changed. Whenever you smiled at something Akanksha showed on the phone, all I could think was how
+                beautiful she is. Then the dreams, I still don't know how a person with such a poor memory like myself
+                still remembers them, but still, those dreams made me realize that I have developed a crush on you, no
+                matter what I say. I know that the silent girl, who I branded as khadus, has made me fall for her, even
+                if just a little bit. I knew that she is not khadus and self-centered as she smiles for her friend. I
+                knew that she will always be there for her friend, and I knew that this is a fatal attraction for me.
+                How I started wishing if only she can smile like that for me too. When we started talking, I was so
+                happy that finally, I can talk to her. I asked for suggestions on how to talk to you. I never in the
+                past ever cared what impression I am giving to other people when I talk to them. I just tell them
+                whatever is on my mind. But this time it was different. I was nervous even after sending a simple
+                message. I was nervous thinking if I crossed the line, what will she think and whatnot. I used to be so
+                nervous during the lab, always thinking about how to talk to you and what to talk about, how not to show
+                you how desperate I am. In which I was successful to the point that you even thought I was ignoring you.
+                But even with all that nervousness, that day became the best day of my week. I used to wait for it all
+                week, thinking finally I can see her up close, finally I will get to hear her voice.</p>
+            <h2>My feelings after getting rejected &#9785</h2>
+            <p>I know you have told me that there is no chance for us, that I should not have any hope. But the truth
+                is, the more I try to lose that hope, the more I find myself hopelessly in love with you. I know you
+                think I'll end up broken, but I can't help but feel that having my heart broken for you would be a
+                privilege. I don't have any expectations from you because I know love doesn't come with conditions or
+                demands. I know that you think I am wasting my time, but all I can think is that the possibility of you
+                is better than the reality of anyone else. All I want to say is that, "If by some miracle you ever find
+                yourself in the position to fall in love again... Fall in love with me."</p>
+            <h1>Her photo&#10084</h1>
+            <img id="khushi" src="/Project1/img/khushi.jpg" alt="" height="243px" width="243px" class="center">
+            <p id="p2"></p>
+        </div>
+    </div>
+</body>
+
+</html>
